@@ -31,3 +31,6 @@ In Order to Kill the session we will use process ID (process) to kill the sessio
 
 select pg_terminate_backend(323);
 --------------------------------------------------------
+How to concatenate two different column of the two different tables in Redshift
+
+(Tab1.column_tab1 + '(' + tab2.column_tab2 + ')') as combine_column_name
